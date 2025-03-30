@@ -1,10 +1,9 @@
+Team Name: Duck Dynasty
+Members: Michael Dox, Michael Loff, Ryan Jo
+Technologies used: Python, CSS, HTML, Flask, PyTorch, YOLOv8, Gemini API, Numpy
+
+
 For our Hackathon project, we really sought to use image classification to assess health risks and promote the wellfare of the community. To do this, we chose to create an ML model that classifies food in a picture, which can then be uploaded either to a nutritional information application which gives nutritional info, or "Attila's Health App" which gives advice on the health impacts of the food you eat.
-
-
-NUTRITIONAL INFORMATION APPLICATION
-
-Uses the model we built to query USDA database, displaying the nutritional information given a picture of food.
-
 
 ATTILA HEALTH APP
 
