@@ -1,0 +1,30 @@
+names:
+- '0'
+- '1'
+- '10'
+- '11'
+- '12'
+- '14'
+- '15'
+- '16'
+- '17'
+- '18'
+- '19'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+nc: 19
+roboflow:
+  license: CC BY 4.0
+  project: gp-n7jdm
+  url: https://universe.roboflow.com/gp-bvrcn/gp-n7jdm/dataset/4
+  version: 4
+  workspace: gp-bvrcn
+test: ../test/images
+train: ../train/images
+val: ../valid/images

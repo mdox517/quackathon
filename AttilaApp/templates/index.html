@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attila's Food Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <img src="/static/Attila.png" alt="Attila the Duck" class="duck">
+        <h1>🦆 Attila's Meal Health Checker 🦆</h1>
+    </header>
+
+    <div class="container">
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Analyze My Meal</button>
+        </form>
+
+        {% if foods %}
+        <div class="results">
+            <h2>Detected Foods:</h2>
+            <ul>
+                {% for food in foods %}
+                <li>{{ food }}</li>
+                {% endfor %}
+            </ul>
+
+            <h2>Attila's Health Report:</h2>
+            <div class="analysis">
+                {{ analysis|replace('\n', '<br>')|safe }}
+            </div>
+
+            <img src="{{ image_path }}" alt="Your meal" class="meal-image">
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
