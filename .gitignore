@@ -4,4 +4,13 @@ venv/
 /food-101/
 /GP-4/
 /resnet50.pth/
-/food-101.tar/
+/food-101.tar/*:Zone.Identifier
+MacroVision/runs/
+
+# Windows metadata
+*:Zone.Identifier
+
+# Python cache
+__pycache__/
+*.py[cod]MacroVision/food-101/ClassifierTraining.ipynb
+MacroVision/food-101
